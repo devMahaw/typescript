@@ -14,3 +14,4 @@ Neste projeto há 8 arquivos que apresentam diferentes treinos de variados recur
 ## Tecnologias Usadas
 
 - Typescript
+- Javascript
