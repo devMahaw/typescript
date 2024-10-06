@@ -12,27 +12,6 @@ class Pessoa {
   }
 }
 
-class ContaBancaria {
-  protected saldo: number = 0;
-  public numeroConta: number;
-
-  constructor(numeroDaConta: number) {
-    this.numeroConta = numeroDaConta;
-  }
-
-  static retornaNumeroDoBanco() {
-    return 125;
-  }
-
-  private getSaldo() {
-    return this.saldo;
-  }
-
-  depositar(valor: number) {
-    this.saldo += valor;
-  }
-}
-
 class ContaBancariaPessoaFisica extends ContaBancaria {
   depositar(valor: number): void {
     this.saldo = valor * 2;
