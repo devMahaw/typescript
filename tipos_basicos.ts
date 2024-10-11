@@ -1,3 +1,15 @@
+let estaChovendo: boolean = false;
+
+estaChovendo = true;
+
+let idade: number = 27;
+
+let altura: number = 1.75;
+
+const nacionalidade: string = "Brasileira";
+
+const colegas: string[] = ["Lucas", "Fernanda"];
+
 const tecnologias: Array<string> = ["html", "css", "js"];
 
 const notas: ReadonlyArray<number> = [7, 9, 5, 8];
