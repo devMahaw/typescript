@@ -4,19 +4,6 @@ type aluno = {
   idade: number;
 };
 
-const alunos: aluno[] = [
-  {
-    nome: "Carlos",
-    cursos: ["Front-end", "UX/UI"],
-    idade: 27,
-  },
-  {
-    nome: "Ana",
-    cursos: ["Front-end", "Python"],
-    idade: 23,
-  },
-];
-
 alunos.push({
   nome: "Júlia",
   cursos: ["Arquitetura"],
